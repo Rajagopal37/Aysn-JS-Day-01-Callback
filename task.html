@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Countdown</title>
+<style>
+  body{
+    background-color: rgb(65, 65, 50);
+    color:rgb(79, 237, 95);
+  }
+  div{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+  }
+  #countdown {
+    font-size: 48px;
+  }
+  button {
+    font-size: 36px;
+  }
+</style>
+</head>
+
+
+<body>
+
+
+<div id="countdown">
+
+  <button onclick="countdown(10, updateCountdown)"> Click </button>
+
+</div>
+
+
+<script>
+  function countdown(number, callback) {
+    setTimeout(function() {
+      callback(number);
+      if (number > 1) {
+        countdown(number - 1, callback);
+      } else {
+        setTimeout(function() {
+          callback("Happy Independence Day!!!");
+        }, 1000); 
+      }
+    }, 1000); 
+  }
+
+  function updateCountdown(count) {
+    document.getElementById('countdown').innerText = count;
+  }
+
+  // countdown(10, updateCountdown);
+</script>
+
+</body>
+</html>
