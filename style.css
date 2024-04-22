@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+    background-color: black;
+    color: #ff1876;
+}
+div{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+#countdown {
+    font-size: 112px;
+  }
+button {
+    display: inline-block;
+    font-size: 24px;
+    padding: 20px 70px;
+    background: #ff1876;
+    color: #fff;
+    border-radius: 40px; 
+    border: none;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    box-shadow: 0 2px 25px rgba(255, 0, 130, 0.5);
+    transition: box-shadow 0.25s;
+  }
+button:active{
+    background: #d80972 ;
+    box-shadow: 0 2px 25px rgba(255, 0, 130, 0.2);
+}
