@@ -1,9 +1,12 @@
+
+
 *{
     margin: 0;
     padding: 0;
     font-family: 'Poppins',sans-serif;
+    font-weight: lighter;
     box-sizing: border-box;
-    background-color: black;
+    background-color: rgb(28, 20, 20);
     color: #ff1876;
 }
 div{
@@ -16,6 +19,7 @@ div{
   }
 #countdown {
     font-size: 112px;
+    cursor: auto;
   }
 button {
     display: inline-block;
