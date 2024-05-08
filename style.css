@@ -39,3 +39,57 @@ button:active{
     background: #d80972 ;
     box-shadow: 0 2px 25px rgba(255, 0, 130, 0.2);
 }
+
+
+body{
+    background-color: rgb(46, 38, 38);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cointainer{
+    width: 300px;
+    height: 500px;
+    box-shadow: 6px 6px 10px rgb(216, 113, 113), 
+                -6px -6px 10px rgba(255,200,50) ;
+    border-radius: 20px;
+    background-color: rgb(133, 30, 110);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+
+svg{
+    width: 200px;
+    height:300px;
+    /* border: 1px solid yellow; */
+}
+#cicle-out{
+    fill:transparent;
+    stroke: rgb(255, 255, 255);
+    stroke-width: 15px;
+    stroke-dasharray: 450;
+    position: relative;
+    transform: translate(30px,30px);
+
+}
+#cicle-in{
+    fill:transparent;
+    stroke: rgb(146, 184, 110);
+    stroke-width: 15px;
+    stroke-dasharray: 0;
+    position: relative;
+    transform: translate(30px,30px);
+}
+p{
+    position: absolute;
+    /* border: 1px solid red; */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    font-weight: bold;
+    top:175px;
+    left:125px;
+}
