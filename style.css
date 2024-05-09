@@ -7,10 +7,10 @@
     font-weight: lighter;
     box-sizing: border-box;
     background-color: rgb(28, 20, 20);
-    color: #ff1876;
+    color: #150463;
 }
 body{
-    background-color: rgb(193, 233, 218);
+    background-color: rgb(164, 174, 170);
     height: 100vh;
     display: flex;
     align-items: center;
@@ -23,7 +23,7 @@ div{
     text-align: center;
     justify-content: center;
     align-items: center;
-    background-color: rgb(193, 233, 218);
+    background-color: rgb(164, 174, 170);
   }
 #countdown {
     font-size: 112px;
