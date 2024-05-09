@@ -1,0 +1,4 @@
+[[redirects]]
+  from = "/*"
+  to = "/countdown.html"
+  status = 200
